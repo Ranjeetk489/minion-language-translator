@@ -51,7 +51,7 @@ button {
   height: 130px;
   border: 1px solid black;
 }
-.footer {
+/* .footer {
   background-color: var(--dark-yellow);
   text-align: center;
   font-size: 1.4rem;
@@ -62,4 +62,30 @@ button {
   align-items: center;
   justify-content: center;
   margin-bottom: 0;
+} */
+footer {
+  text-align: center;
+  background-color: #118882;
+  color: #fff;
+}
+
+footer p {
+  font-size: large;
+  text-align: center;
+}
+
+.footer-list {
+  margin: 1rem;
+}
+
+a,
+img,
+li {
+  display: inline;
+  color: #fff;
+}
+
+img {
+  width: 40px;
+  padding: 1rem 0.2rem;
 }
